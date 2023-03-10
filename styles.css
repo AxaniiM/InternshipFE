@@ -1,0 +1,119 @@
+
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }
+/* header {
+    background-color:rgba(237,230,202,255);
+    height: 100px;
+    width: 100%;
+} */
+/* .logo-name {
+    font-weight: bold;
+    float: left;
+    font-size: 24px;
+} */
+.logo-name:before {
+    color: #d7ae40;
+    content: "Food";
+}
+/* .myNav {
+    display: inline;
+    float: right;
+} */
+/* .myNav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+} */
+/* main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border: 1px solid  #eeeeee;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    box-shadow: 10px 5px 5px #e6e4e6;
+    height: 100px;
+    align-items: center;
+
+} */
+/* .youtube-stat,
+.insta-stats,
+.dribble-stats {
+    display: block;
+} */
+
+/* .subs-count {
+    color: rgb(154, 148, 123);
+    font-size: 24px;
+   position: relative;
+} */
+.subs-count::after {
+    content: "";
+    position: absolute;/* set the position of the pseudo-element to absolute */
+    top: 50%; /* set the vertical position of the line to the center of the first div */
+    left: 0; /* set the horizontal position of the line to the left edge of the first div */
+    width: 100%; /* set the width of the line to the width of the first div */
+    height: 1px; /* set the height of the line to 1 pixel */
+    background-color: black; /* set the color of the line as needed */
+    margin-top: 10px; /* set the z-index of the line to be behind the first div */
+  }
+  
+/* .youtube-channel-subs, 
+.insta-profile-subs,
+.dribble-profile-count {
+    color: #a6a6a8;
+    font-size: 24px;
+} */
+/* h1 {
+    text-align: center;
+} */
+/* .flex-food-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+} */
+/* .food-card {
+    flex: 0 0 calc(22% - 10px);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px rgb(230, 228, 230);
+ } */
+
+/* .food-card img {
+    display: block;
+    width: 350px;
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 3%;
+    
+} */
+/* .food-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 7%;
+} */
+/* .food-price {
+    color: #949494;
+    margin-left: 7%;
+} */
+/* button {
+    color: white;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #f0a621, #e9513d);
+    border-radius: 30px;
+    border: none;
+    margin-left: 7%;
+    margin-bottom: 5px;
+} */
